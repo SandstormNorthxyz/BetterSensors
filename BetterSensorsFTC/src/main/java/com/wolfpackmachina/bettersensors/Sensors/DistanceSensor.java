@@ -1,13 +1,13 @@
-package com.WolfpackMachina.bettersensors.Sensors;
+package com.wolfpackmachina.bettersensors.Sensors;
 
-import static com.WolfpackMachina.bettersensors.Utils.MathUtils.withinRange;
+import static com.wolfpackmachina.bettersensors.Utils.MathUtils.withinRange;
 import static com.qualcomm.robotcore.hardware.DistanceSensor.distanceOutOfRange;
 
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
-import com.WolfpackMachina.bettersensors.DataTypes.Distance;
-import com.WolfpackMachina.bettersensors.HardwareMapProvider;
-import com.WolfpackMachina.bettersensors.Sensor;
-import com.WolfpackMachina.bettersensors.Utils.RingBuffer;
+import com.wolfpackmachina.bettersensors.DataTypes.Distance;
+import com.wolfpackmachina.bettersensors.HardwareMapProvider;
+import com.wolfpackmachina.bettersensors.Sensor;
+import com.wolfpackmachina.bettersensors.Utils.RingBuffer;
 
 import java.util.List;
 

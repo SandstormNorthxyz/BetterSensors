@@ -1,4 +1,4 @@
-package com.WolfpackMachina.bettersensors.Drivers;
+package com.wolfpackmachina.bettersensors.Drivers;
 /*
 Copyright (c) 2019 REV Robotics LLC
 

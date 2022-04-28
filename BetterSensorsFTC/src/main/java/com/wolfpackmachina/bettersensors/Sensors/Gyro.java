@@ -1,17 +1,17 @@
-package com.WolfpackMachina.bettersensors.Sensors;
+package com.wolfpackmachina.bettersensors.Sensors;
 
-import com.WolfpackMachina.bettersensors.HardwareMapProvider;
-import com.WolfpackMachina.bettersensors.Utils.MathUtils;
-import com.WolfpackMachina.bettersensors.Utils.RingBuffer;
+import com.wolfpackmachina.bettersensors.HardwareMapProvider;
+import com.wolfpackmachina.bettersensors.Utils.MathUtils;
+import com.wolfpackmachina.bettersensors.Utils.RingBuffer;
 import com.qualcomm.hardware.bosch.BNO055IMU;
 
 import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
 import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
-import com.WolfpackMachina.bettersensors.DataTypes.Angle;
-import com.WolfpackMachina.bettersensors.DataTypes.AngularPosition;
-import com.WolfpackMachina.bettersensors.Sensor;
+import com.wolfpackmachina.bettersensors.DataTypes.Angle;
+import com.wolfpackmachina.bettersensors.DataTypes.AngularPosition;
+import com.wolfpackmachina.bettersensors.Sensor;
 
 public class Gyro extends Sensor<AngularPosition> {
 
