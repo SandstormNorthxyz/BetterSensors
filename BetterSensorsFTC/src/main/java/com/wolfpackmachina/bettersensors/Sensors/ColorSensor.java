@@ -24,7 +24,7 @@ public class ColorSensor extends Sensor<ColorAndDistReading> {
      */
     @Override
     protected void sensorInit(String hardwareID) {
-        colorSensor = HardwareMapProvider.hardwareMap.get(ColorSensorV3.class, hardwareID);
+        colorSensor = useHardwareMap ? hardwareMap.get(ColorSensorV3.class, hardwareID) : HardwareMapProvider.hardwareMap.get(ColorSensorV3.class, hardwareID);
     }
 
     @Override

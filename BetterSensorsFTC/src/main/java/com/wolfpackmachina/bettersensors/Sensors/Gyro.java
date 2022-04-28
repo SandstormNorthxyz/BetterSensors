@@ -177,7 +177,7 @@ public class Gyro extends Sensor<AngularPosition> {
     //TODO: ADD SUPPORT FOR VERTICAL CONTROL HUBS, CURRENT CODE ONLY WORKS FOR VERTICAL HUBS IF PITCH NEVER CHANGES APPRECIABLY
     private BNO055IMU imuConstructor(String deviceName){
         BNO055IMU imu;
-        imu = HardwareMapProvider.hardwareMap.get(BNO055IMU.class, deviceName);
+        imu = useHardwareMap ? hardwareMap.get(BNO055IMU.class, deviceName) : HardwareMapProvider.hardwareMap.get(BNO055IMU.class, deviceName);
         BNO055IMU.Parameters parameters = new BNO055IMU.Parameters();
         parameters.angleUnit           = BNO055IMU.AngleUnit.DEGREES;
         parameters.accelUnit           = BNO055IMU.AccelUnit.METERS_PERSEC_PERSEC;
